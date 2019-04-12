@@ -1,0 +1,165 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+#myName {
+  font-size: 32px
+  
+}
+.topthreeparagraphs {
+  font-color: DeepSkyBlue;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/3/31/Shipwreck_Greece.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+#firstfav {
+  	align-items: center;
+    font-size: 55px;
+  	font-weight: 232;
+  	color: #fedd;
+  }
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #ffff;
+  height: 220px;
+  text-shadow: 0.55px 0.75px 0.25px #000000;
+}
+#secondfav {
+  display: flex;
+  align-items: center;
+  font-size: 75px;
+  font-weight: 100;
+  color: blue;
+
+}
+.jumbotron h3 {
+  font-size: 25px;
+  font-weight: 65;
+  margin: 0 0 20px;
+  color: white;
+}
+#thirdfav {
+  align-items: flex;
+  display: center;
+  font-size: 75px;
+  font-weight: 100;
+  color: yellow;
+}
+
+#fourthfav {
+  align-items: flex;
+  display: center;
+  font-size: 39px;
+  font-weight: 121;
+  color: pink;
+  
+}
+
+.col-md-10 {
+  color: red
+  margin: 0 0 30px
+}
+
+.jumbotron h4 {
+  font-size: 62px;
+  color: yellow
+  
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+#firstquote {
+  color: black;
+    font-size: 17px;
+    font-family: "Arial"
+}
+#secondquote {
+  color: purple;
+    font-size: 11px;
+    font-family: "Times"
+}
+
+#thirdquote {
+  color: green;
+    font-size: 14px;
+    font-family: "Calibri"
+}
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
